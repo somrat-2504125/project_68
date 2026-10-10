@@ -1,4 +1,26 @@
-.git/
-.gitignore
+# --- Environments & Secrets (CRITICAL: NEVER COMMIT THESE) ---
 .env
+*.env.local
+*.pem
+*.key
 
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# --- Node.js / JavaScript / Web ---
+node_modules/
+dist/
+build/
+.next/
+npm-debug.log*
+
+# --- Operating System & Editor Files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
